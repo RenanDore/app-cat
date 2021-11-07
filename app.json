@@ -4,11 +4,12 @@
     "slug": "app-cat",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/cat.ico",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/gatinho.jpeg",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#803945",
+      "title": "By Renan Dore"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,9 +22,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/gatinho.jpeg",
+        "backgroundColor": "#803945"
+      },
+      "package": "com.renandore.appcat"
     },
     "web": {
       "favicon": "./assets/favicon.png"
