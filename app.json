@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "app-cat",
-    "slug": "app-cat",
+    "name": "Gatinhos",
+    "slug": "Gatinhos",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/cat.ico",
+    "icon": "./assets/sleep.png",
     "splash": {
-      "image": "./assets/gatinho.jpeg",
+      "image": "./assets/gato-min.png",
       "resizeMode": "contain",
       "backgroundColor": "#803945",
       "title": "By Renan Dore"
@@ -22,7 +22,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/gatinho.jpeg",
+        "foregroundImage": "./assets/sleep.png",
         "backgroundColor": "#803945"
       },
       "package": "com.renandore.appcat"
