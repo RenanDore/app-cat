@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
-import { View, Image, SafeAreaView, Text, StyleSheet, TouchableOpacity, Linking, ActivityIndicator } from 'react-native';
+import { View, Image, SafeAreaView, Text, StyleSheet, TouchableOpacity, Linking } from 'react-native';
 import api from './src/services/api';
 import { FontAwesome5 } from '@expo/vector-icons';
 
@@ -15,7 +15,7 @@ export default function App() {
     setLoading(false);
   }
 
-  console.log('API:', cat)
+  /* console.log('API:', cat) */
 
   return (
     <SafeAreaView style={styles.container}>
